@@ -1,6 +1,12 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": [
-    "./tailwind.config.cjs",
-  ]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@lib/*": ["./lib/*"],
+      "@/*": ["./src/*"]
+    },
+    "verbatimModuleSyntax": true
+  },
+  "include": ["./tailwind.config.cjs", "./src/**/*", "./lib/**/*"]
 }
