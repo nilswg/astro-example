@@ -5,18 +5,16 @@
   "jsxBracketSameLine": true,
   "singleQuote": true,
   "trailingComma": "all",
-  "tabWidth": 2,
-  "printWidth": 120,
+  "tabWidth": 4,
+  "printWidth": 144,
   "semi": true,
   "tailwindFunctions": ["cva", "cn"],
   "importOrder": [
     "<BUILT_IN_MODULES>",
-    "",
     "^(react/(.*)$)|^(react$)",
     "^(next/(.*)$)|^(next$)",
     "^(astro/(.*)$)|^(astro:$)",
     "<THIRD_PARTY_MODULES>",
-    "",
     "^types$",
     "^@/types/(.*)$",
     "^@/config/(.*)$",
@@ -24,7 +22,6 @@
     "^@/hooks/(.*)$",
     "^@/components/ui/(.*)$",
     "^@/components/(.*)$",
-    "",
     "^(?!.*[.]css$)[./].*$",
     ".css$"
   ] 
